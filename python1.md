@@ -7,7 +7,7 @@ mathjax: True
 
 ## Tutorial 1
 
-### Table of contents
+### Contents
 - [Introduction](#introduction)
 - [Python Quick Start Guide](#quick-start-guide)
 - [Datatypes](#2-data-types-and-precision)
