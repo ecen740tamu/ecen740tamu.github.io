@@ -39,15 +39,12 @@ Python comes pre-installed in all modern operating systems. Using Python in a lo
 
 Image 1 here
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/Kumar.jpg" alt="Kumar" style="width: 70%;" />
+    <img src="docs/Kumar.jpg" alt="Kumar" style="width: 50%;" />
     <br>
     <em>Figure: An example figure.</em>
 </div>
 
-Image 2 here
-<figure style="center: auto;">
-    <img src="{{ site.baseurl }}/docs/Kumar.jpg/" alt=" " style="width: 70%;">
-</figure>
+
 
 
 
