@@ -96,7 +96,7 @@ There is an interesting empirical phenomenon called "double descent" that can so
 
 
 <div style="text-align: center;">
-    <img src="/assets/images/largenet.png/" alt=" " style="width: 80%;">
+    <img src="{{ site.baseurl }}/assets/images/largenet.png/" alt=" " style="width: 80%;">
      <em>Figure 2: Network with large number of neurons in Layer 1 and 2</em>
 </div>
 
