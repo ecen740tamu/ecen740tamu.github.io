@@ -39,7 +39,7 @@ Python comes pre-installed in all modern operating systems. Using Python in a lo
 
 
 <figure style="center: auto;">
-    <img src="{{ site.baseurl }}docs/Kumar.jpg/" alt=" " style="width: 70%;">
+    <img src="{{ site.baseurl }}/docs/Kumar.jpg/" alt=" " style="width: 70%;">
 </figure>
 
 
