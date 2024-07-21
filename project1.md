@@ -53,7 +53,7 @@ There are several ways of writing a neural network stack. Cells 7 and 17 in the 
 The network defined has 2 input features, 2 neurons at level 1, and 1 neuron at level 2 which produces the output. The network is fully connected. This is shown in Figure 1.
 <div style="text-align: center;">
 <figure style="center: auto;">
-    <img src="/assets/images/Fig1.jpg/" alt=" " style="width: 70%;">
+    <img src="{{ site.baseurl }}/assets/images/Fig1.jpg/" alt=" " style="width: 70%;">
     <figcaption> Fig 1: Two-layer network of shape {2,1}, i.e., two neurons at Layer 1, and
 one at Layer 2. These are fed by 2 inputs, which are completely connected
 to the neurons at Layer 1. The neuron at Layer 2 generates 1 output. The
@@ -89,7 +89,7 @@ There is an interesting empirical phenomenon called "double descent" that can so
 
 
 <figure style="text-align: center;">
-    <img src="/assets/images/largenet.png/" alt=" " style="width: 80%;">
+    <img src="{{ site.baseurl }}/assets/images/largenet.png/" alt=" " style="width: 80%;">
      <figcaption>Figure 2: Network with large number of neurons in Layer 1 and 2</figcaption>
 </figure>
 

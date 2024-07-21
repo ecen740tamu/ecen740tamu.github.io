@@ -37,9 +37,9 @@ Python comes pre-installed in all modern operating systems. Using Python in a lo
 - Create a Jupyter notebook file.
 - Remember, when in doubt, just ask a question in the prompt area of Google Colab.
 
-Image 1 here
+
 <div style="text-align: center;">
-    <img src="docs/Kumar.jpg" alt="Kumar" style="width: 50%;" />
+    <img src="{{ site.baseurl }}/assets/colab2.png" alt="Kumar" style="width: 50%;" />
     <br>
     <em>Figure: An example figure.</em>
 </div>

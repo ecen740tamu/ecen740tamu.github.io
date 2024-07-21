@@ -8,7 +8,7 @@ collections:
   navigation:
     output: true
 
-
+baseurl: ""
 include:
   - docs
   - assets
