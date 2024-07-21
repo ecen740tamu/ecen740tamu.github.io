@@ -88,10 +88,10 @@ Please see Cell 36 on how to plot the training losses change as we continue to t
 There is an interesting empirical phenomenon called "double descent" that can sometimes be observed: A model with a small number of parameters and a model with an extremely large number of parameters have a small test error, but a model whose number of parameters is about the same as the number of data points used to train the model has a large test error. You can read more about this phenomenon in [Preetam et al. work](https://arxiv.org/abs/1912.02292) and [OpenAI blog post](https://openai.com/research/deep-double-descent).
 
 
-<figure style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/images/largenet.png/" alt=" " style="width: 80%;">
-     <figcaption>Figure 2: Network with large number of neurons in Layer 1 and 2</figcaption>
-</figure>
+<p align="center">
+    <img src="/assets/images/largenet.png/" alt=" " style="width: 80%;">
+     <div class="figcaption">Figure 2: Network with large number of neurons in Layer 1 and 2</div>
+</p>
 
 We consider neural networks with a large number of neurons in Layer 1, as shown in Fig. 2. Specifically we consider neural networks with  10 or 100 neurons in Layer 1. We repeat the training for each of these large neural networks which have many more parameters. In Cells 37, 43, 50, and 55 we plot the training and test performance of a neural network. Please see the very end of Cell 65 to see this ``double descent" phenomenon.
 

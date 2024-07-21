@@ -10,10 +10,6 @@ collections:
 
 baseurl: "" 
 
-include:
-  - assets
-  - docs
-
 
 plugins:
   - jekyll-feed
