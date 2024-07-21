@@ -42,7 +42,7 @@ Python comes pre-installed in all modern operating systems. Using Python in a lo
     <img src="{{ site.baseurl }}/docs/Kumar.jpg/" alt=" " style="width: 70%;">
 </figure>
 
-
+![Kumar](/docs/Kumar.jpg "Optional title")
 
 
 
