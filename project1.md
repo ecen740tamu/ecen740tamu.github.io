@@ -9,6 +9,8 @@ mathjax: True
 ## Project 1
 We learn to neural networks in this project.
 
+### Contents
+
 - [Introduction](#1-introduction)
 - [Training Neural Networks](#21-tutorial-on-training-and-testing-neural-networks)
 - [Assignment Task](#3-project-assignment)
