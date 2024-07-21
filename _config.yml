@@ -10,11 +10,9 @@ collections:
 
 baseurl: "" 
 
+include:
+  - docs/images
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-latex
 header_pages:
   - home.md
 
