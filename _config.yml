@@ -8,10 +8,12 @@ collections:
   navigation:
     output: true
 
+baseurl: "" 
 
 include:
-  - docs
   - assets
+  - docs
+
 
 plugins:
   - jekyll-feed
