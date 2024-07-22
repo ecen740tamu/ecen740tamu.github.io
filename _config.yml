@@ -11,7 +11,8 @@ collections:
 baseurl: "" 
 
 include:
-  - docs/images
+  - docs
+  - images
 
 header_pages:
   - home.md
