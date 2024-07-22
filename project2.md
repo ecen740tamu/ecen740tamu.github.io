@@ -27,7 +27,7 @@ In this Task 1.1 (but <i>not</i> in Task 1.2 which follows), flatten each input 
 
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/docs/prject2_fig1.png/" alt=" " style="width: 70%;">
+  <img src="{{ site.baseurl }}/docs/prject2_fig1.png" alt=" " style="width: 70%;">
   <br>
      <em>Figure 1: Neural network with one hidden layer of 1000 nodes. 
     The 10 neurons in the output layer are <i>Identity</i> neurons; there is no nonlinearity. Each $y_i$ is just the weighted sum of the inputs to the Identity neuron. Note that $z_i = \frac{e^{y_i}}{e^{y_0} + e^{y_1} + \ldots + e^{y_9}}$ is the soft-max output.</em>
@@ -79,20 +79,19 @@ In your case, since the images are 28x28, your permutation will also need to be 
 
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/2.png/" alt=" " style="width: 40%;">
+    <img src="{{ site.baseurl }}/docs/2.png" alt=" " style="width: 40%;">
     <br>
     <em>Figure 1: Example of original and permuted MNIST image</em>
 </div>
 
-
-
-
-
 <div style="text-align: center;">
-   <img src="{{ site.baseurl }}/docs/3.png/" alt=" " style="width: 40%;">
+   <img src="{{ site.baseurl }}/docs/3.png" alt=" " style="width: 40%;">
     <br>
     <em>Figure 2: Example of original and permuted MNIST image</em>
 </div>
+
+
+
 
 
 ### Problem 2: 
