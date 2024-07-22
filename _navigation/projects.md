@@ -11,6 +11,7 @@ order: 4
 
 1. ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
 
+
 ```bash
 # ssh to the ece cluster
 ssh -Y <netid>@olympus.ece.tamu.edu
@@ -74,9 +75,15 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
     </tr>
   </tbody>
 </table>
+
+
+
 2. High Performance Research Computing at TAMU, [request access](https://hprc.tamu.edu/apply/). Use ECEN 740 course number to get approval
+
 3. [Google Colab](https://colab.research.google.com/) 
+
 4. [Azure for students](https://azure.microsoft.com/en-us/free/students)
+
 5. Usual TAMU OAL Labs student accounts. [Access](https://it.tamu.edu/oal/) 
 
 #### Python
