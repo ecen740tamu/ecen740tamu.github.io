@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     course (0.1.0)
-      jekyll (>= 3.5, < 5.0)
+      jekyll (>= 4.2, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
 
@@ -114,7 +114,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   course!
-  jekyll
+  jekyll (~> 4.2)
   jekyll-latex
   jekyll-postfiles
   rouge
