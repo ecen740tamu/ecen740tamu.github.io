@@ -53,7 +53,7 @@ There are several ways of writing a neural network stack. Cells 7 and 17 in the 
 The network defined has 2 input features, 2 neurons at level 1, and 1 neuron at level 2 which produces the output. The network is fully connected. This is shown in Figure 1.
 <div style="text-align: center;">
    <img src="{{ site.baseurl }}/docs/Fig1.png" alt=" " style="width: 70%;">
-
+    <br>
  <em> Fig 1: Two-layer network of shape {2,1}, i.e., two neurons at Layer 1, and
 one at Layer 2. These are fed by 2 inputs, which are completely connected
 to the neurons at Layer 1. The neuron at Layer 2 generates 1 output. The

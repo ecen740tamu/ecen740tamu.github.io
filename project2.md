@@ -25,12 +25,13 @@ In this Task 1.1 (but <i>not</i> in Task 1.2 which follows), flatten each input 
 
 - Task 1.1 consists of training a neural network with one <i>hidden</i> layer consisting of 1000 neurons to classify digits. This is shown in Fig 1.  By <i>a single hidden layer of 1000 neurons</i>, we mean that the 784 inputs are fully connected to 1000 neurons, which are in turn fully connected to 10 output <i>identity</i> neurons. There are ten output neurons since there are ten classes (0 to 9) into which each image is to be classified. A soft max follows the outputs of the identity neurons.  Anything not connected to the inputs or outputs is called a <i>hidden layer.</i> The layer with 1000 neurons between and output is a <i>hidden layer.</i> 
 
-<div>
-<figure style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/prject2_fig1.png/" alt=" " style="width: 70%;">
-     <figcaption>Figure 1: Neural network with one hidden layer of 1000 nodes. 
-    The 10 neurons in the output layer are <i>Identity</i> neurons; there is no nonlinearity. Each $y_i$ is just the weighted sum of the inputs to the Identity neuron. Note that $z_i = \frac{e^{y_i}}{e^{y_0} + e^{y_1} + \ldots + e^{y_9}}$ is the soft-max output.</figcaption>
-</figure>
+
+<div style="text-align: center;">
+  <img src="{{ site.baseurl }}/docs/prject2_fig1.png/" alt=" " style="width: 70%;">
+  <br>
+     <em>Figure 1: Neural network with one hidden layer of 1000 nodes. 
+    The 10 neurons in the output layer are <i>Identity</i> neurons; there is no nonlinearity. Each $y_i$ is just the weighted sum of the inputs to the Identity neuron. Note that $z_i = \frac{e^{y_i}}{e^{y_0} + e^{y_1} + \ldots + e^{y_9}}$ is the soft-max output.</em>
+
 </div>
 - Apply the soft-max function to the output layer nodes, as shown, and utilize cross-entropy as the loss function. Experiment with different activation functions (RELU or Sigmoid) and gradient descent optimization methods.
     
@@ -75,17 +76,22 @@ x_{21} & x_{33} & x_{31}\\
  $$
 In your case, since the images are 28x28, your permutation will also need to be 28x28.
 - Choose a <i>random</i> permutation of the 28x28 image. Fig. 1 and 2 show one such permutation.
-<div>
-<figure style="text-align: center;">
+
+
+<div style="text-align: center;">
     <img src="{{ site.baseurl }}/docs/2.png/" alt=" " style="width: 40%;">
-     <figcaption>Figure 1: Example of original and permuted MNIST image</figcaption>
-</figure>
+    <br>
+    <em>Figure 1: Example of original and permuted MNIST image</em>
 </div>
-<div>
-<figure style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/3.png/" alt=" " style="width: 40%;">
-     <figcaption>Figure 2: Example of original and permuted MNIST image</figcaption>
-</figure>
+
+
+
+
+
+<div style="text-align: center;">
+   <img src="{{ site.baseurl }}/docs/3.png/" alt=" " style="width: 40%;">
+    <br>
+    <em>Figure 2: Example of original and permuted MNIST image</em>
 </div>
 
 

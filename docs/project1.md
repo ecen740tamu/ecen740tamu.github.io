@@ -76,7 +76,7 @@ There are several ways of writing a neural network stack. Cells 7 and 17 in the 
 
 The network defined has 2 input features, 2 neurons at level 1, and 1 neuron at level 2 which produces the output. The network is fully connected. This is shown in Figure 1.
 
-![Two-layer network](/course/_data/Fig1.pdf)
+
 
 Please note that there are a total of (2x2) weights +(2x1) weights + 3 biases = 9 parameters.
 
