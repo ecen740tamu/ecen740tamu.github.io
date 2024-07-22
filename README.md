@@ -28,6 +28,10 @@ Or install it yourself as:
 
     $ gem install course
 
+
+## Figures
+Add figures in png only while using github pages, local sources are fines with jpg too
+
 ## Usage
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
