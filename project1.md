@@ -53,13 +53,13 @@ There are several ways of writing a neural network stack. Cells 7 and 17 in the 
 The network defined has 2 input features, 2 neurons at level 1, and 1 neuron at level 2 which produces the output. The network is fully connected. This is shown in Figure 1.
 <div style="text-align: center;">
 <figure style="center: auto;">
-    <img src="{{ site.baseurl }}/assets/images/Fig1.jpg/" alt=" " style="width: 70%;">
-    <figcaption> Fig 1: Two-layer network of shape {2,1}, i.e., two neurons at Layer 1, and
+    <img src="{{ site.baseurl }}/docs/Fig1.jpg/" alt=" " style="width: 70%;">
+    <em> Fig 1: Two-layer network of shape {2,1}, i.e., two neurons at Layer 1, and
 one at Layer 2. These are fed by 2 inputs, which are completely connected
 to the neurons at Layer 1. The neuron at Layer 2 generates 1 output. The
 neurons at Layer 1 are RELU, but the last neuron at the output layer is
 linear. It has no nonlinearity. It is just a weighted sum of its inputs and
-bias. </figcaption> 
+bias. </em> 
 </figure>
 </div>
 Please note that there are a total of (2x2) weights +(2x1)weights +3biases = 9 parameters
@@ -89,16 +89,13 @@ There is an interesting empirical phenomenon called "double descent" that can so
 
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/largenet.png" alt="Kumar" style="width: 50%;" />
+    <img src="{{ site.baseurl }}/docs/largenet.png" alt=" " style="width: 80%;" />
     <br>
-    <em>Figure: An example figure.</em>
+    <em>Figure 2: Network with large number of neurons in Layer 1 and 2</em>
 </div>
 
 
-<p align="center">
-    <img src="/assets/images/largenet.png/" alt=" " style="width: 80%;">
-     <div class="figcaption">Figure 2: Network with large number of neurons in Layer 1 and 2</div>
-</p>
+
 
 We consider neural networks with a large number of neurons in Layer 1, as shown in Fig. 2. Specifically we consider neural networks with  10 or 100 neurons in Layer 1. We repeat the training for each of these large neural networks which have many more parameters. In Cells 37, 43, 50, and 55 we plot the training and test performance of a neural network. Please see the very end of Cell 65 to see this ``double descent" phenomenon.
 
