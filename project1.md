@@ -28,7 +28,7 @@ For developers who rely on Intel processors, Intel One API provides several nati
 In this tutorial, which is followed by the accompanying project for this week, we focus on the fundamentals of the training and testing processes.
 
 ### 2. Tutorial on training and testing neural networks
-In this tutorial, the goal is to understand how to set up and train a neural network to approximate labeled samples. Please download the Jupyter notebook from [Project Jupyter Notebook](#).
+In this tutorial, the goal is to understand how to set up and train a neural network to approximate labeled samples. Please download the Jupyter notebook from [here](https://github.com/ecen740tamu/ecen740tamu/blob/main/neural_networks.ipynb).
 
 In the example Jupyter notebook, we first show how to create samples that are later used to train and evaluate the neural network approximation.
 
