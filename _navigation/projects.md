@@ -7,9 +7,9 @@ order: 4
 
 ## Tutorials:
 
-#### Compute Resource at TAMU
+#### Compute Resources at TAMU
 
-1. ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
+- ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
 
 
 ```bash
@@ -17,7 +17,7 @@ order: 4
 ssh -Y <netid>@olympus.ece.tamu.edu
 # request resource
 srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cpus-per-task=8 -q <choose qos> --pty --x11=first bash
- pick right partition
+ pick right partition frob the table below
 ```
 
 
@@ -100,14 +100,15 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
 
 
 
-2. High Performance Research Computing at TAMU, [request access](https://hprc.tamu.edu/apply/). Use ECEN 740 course number to get approval
+- High Performance Research Computing at TAMU, [request access](https://hprc.tamu.edu/apply/). Use ECEN 740 course number to get approval
 
-3. [Google Colab](https://colab.research.google.com/) 
+- [Google Colab](https://colab.research.google.com/) 
 
-4. [Azure for students](https://azure.microsoft.com/en-us/free/students)
+- [Azure for students](https://azure.microsoft.com/en-us/free/students)
 
-5. Usual TAMU OAL Labs student accounts. [Access](https://it.tamu.edu/oal/) 
+- Usual TAMU OAL Labs student accounts. [Access](https://it.tamu.edu/oal/) 
 
-#### Python
-1. [Python Tutorial]({% link python1.md %})
-2. [Python Tutorial]({% link python2.md %})
+#### Python Tutorials
+
+- [Python Tutorial]({% link python1.md %})
+- [Python Tutorial]({% link python2.md %})
