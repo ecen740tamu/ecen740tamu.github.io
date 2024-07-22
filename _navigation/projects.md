@@ -19,7 +19,29 @@ ssh -Y <netid>@olympus.ece.tamu.edu
 srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cpus-per-task=8 -q <choose qos> --pty --x11=first bash
  pick right partition
 ```
-<table>
+
+
+<style>
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  th, td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<table class = "center">
   <caption>QOS and Hardware Limits</caption>
   <thead>
     <tr>
