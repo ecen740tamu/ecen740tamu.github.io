@@ -89,7 +89,7 @@ There is an interesting empirical phenomenon called "double descent" that can so
 
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/colab2.png" alt="Kumar" style="width: 50%;" />
+    <img src="{{ site.baseurl }}/docs/largenet.png" alt="Kumar" style="width: 50%;" />
     <br>
     <em>Figure: An example figure.</em>
 </div>
