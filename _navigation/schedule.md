@@ -46,3 +46,6 @@ order: 3
   <tr><td>11</td><td>Recurrent Neural Networks, Seq2Seq Models</td></tr>
   <tr><td>12</td><td>Attention Mechanisms, BERT, GPT</td></tr>
 </table>
+
+<br>
+<br>

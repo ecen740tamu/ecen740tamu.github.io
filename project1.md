@@ -53,7 +53,7 @@ There are several ways of writing a neural network stack. Cells 7 and 17 in the 
 The network defined has 2 input features, 2 neurons at level 1, and 1 neuron at level 2 which produces the output. The network is fully connected. This is shown in Figure 1.
 <div style="text-align: center;">
 <figure style="center: auto;">
-    <img src="{{ site.baseurl }}/assets/images/Fig1.jpg/" alt=" " style="width: 70%;">
+    <img src="{{ site.baseurl }}/docs/images/Fig1.jpg/" alt=" " style="width: 70%;">
     <figcaption> Fig 1: Two-layer network of shape {2,1}, i.e., two neurons at Layer 1, and
 one at Layer 2. These are fed by 2 inputs, which are completely connected
 to the neurons at Layer 1. The neuron at Layer 2 generates 1 output. The
@@ -88,15 +88,9 @@ Please see Cell 36 on how to plot the training losses change as we continue to t
 There is an interesting empirical phenomenon called "double descent" that can sometimes be observed: A model with a small number of parameters and a model with an extremely large number of parameters have a small test error, but a model whose number of parameters is about the same as the number of data points used to train the model has a large test error. You can read more about this phenomenon in [Preetam et al. work](https://arxiv.org/abs/1912.02292) and [OpenAI blog post](https://openai.com/research/deep-double-descent).
 
 
-<div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/colab2.png" alt="Kumar" style="width: 50%;" />
-    <br>
-    <em>Figure: An example figure.</em>
-</div>
-
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/images/largenet.png/" alt=" " style="width: 80%;">
+    <img src="{{ site.baseurl }}/docs/largenet.png/" alt=" " style="width: 80%;">
      <em>Figure 2: Network with large number of neurons in Layer 1 and 2</em>
 </div>
 
