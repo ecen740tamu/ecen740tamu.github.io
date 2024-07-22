@@ -5,8 +5,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2"
 gem "rouge"
 
-gem 'jekyll'
-
 group :jekyll_plugins do
   gem 'jekyll-postfiles'
 end
