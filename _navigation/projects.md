@@ -10,7 +10,11 @@ order: 4
 #### Compute Resources at TAMU
 
 - ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
-
+ - Following are the steps to run experiments in the cluster.
+    1. Ssh using vscode
+    2. Request resource, and choose right partition and qos
+    3. Import your files, and create a python env and kick start experiments
+    4. Following commands help
 
 ```bash
 # ssh to the ece cluster
