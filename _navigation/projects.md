@@ -49,11 +49,11 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
   <caption>QOS and Hardware Limits</caption>
   <thead>
     <tr>
-      <th>Partition</th>
+      <th>QoS Name</th>
       <th>Hardware Limits</th>
       <th>Default Time Limits</th>
       <th>Hard Time Limit</th>
-      <th>QOS Name</th>
+      <th>Partition</th>
     </tr>
   </thead>
   <tbody>
