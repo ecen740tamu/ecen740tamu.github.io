@@ -16,6 +16,10 @@ Over the past few decades, significant efforts have been made to understand lang
 The work of Vaswani et al., <strong><i>**Attention is All You Need**,</i></strong> NeurIPS 2017, significantly advanced the state of the art in language modeling.
 It showcased the ability of transformers not only for translation. Interestingly, it has been quite challenging for me to find an area or task transformers are not applicable. Also, BERT is encoder only model and GPT models are decoder only.
 
+In this project, we implement the English-to-German translation task in the
+paper [2](https://arxiv.org/abs/1706.03762). Software source code is available at [4](https://github.com/brandokoch/attention-is-all-you-need-paper/tree/master), [6](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/Transformer_translate.ipynb). [4](https://github.com/brandokoch/attention-is-all-you-need-paper/tree/master) is PyTorch, while [6](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/Transformer_translate.ipynb) is in
+TensorFlow. You may choose either
+
 ### Task
 - Implement English-to-German translation task.
 
@@ -169,6 +173,16 @@ There might be a significant need for computing power to finish the task with mo
   </tbody>
 </table>
 
+
+### References
+
+1. [Dataset](https://huggingface.co/datasets/wmt/wmt14)
+2. [Paper](https://arxiv.org/abs/1706.03762)
+3. [Pytorch transformer](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
+4. [Source code](https://github.com/brandokoch/attention-is-all-you-need-paper/tree/master)
+5. [Streamlit application](https://docs.streamlit.io/get-started/tutorials/create-an-app)
+6. [Tensor to tensor](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/Transformer_translate.ipynb)
+7. [Tokenizer implementations](https://huggingface.co/learn/nlp-course/en/chapter6/8)
 
 <br>
 <br>
