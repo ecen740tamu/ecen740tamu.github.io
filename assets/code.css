@@ -6,7 +6,7 @@
 /*.highlight table pre { margin: 0; }*/
 .highlight {font-size: 14px;}
 .highlight {
-  color: #000707;
+  /*color: #000707;*/
   background-color: #f3ffff;
   border-radius: 16px;
   border: 1px solid #73AD21;
