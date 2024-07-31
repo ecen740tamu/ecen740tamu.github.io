@@ -8,6 +8,7 @@
 .highlight {
   color: #000707;
   background-color: #f3ffff;
+  border-radius: 16px;
 }
 .highlight .gl {
   color: #f3ffff;
