@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Navigation Bar</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- Linking Roboto font -->
+    <script src="dist/clipboard.min.js"></script>
+    <style>
+        .copy-button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .copy-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -17,7 +34,35 @@
         
     </nav>
 </header>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Select all code elements
+        const codeBlocks = document.querySelectorAll('code');
+    
+        codeBlocks.forEach((codeBlock) => {
+            // Create a button element
+            const button = document.createElement('button');
+            button.innerText = 'Copy';
+            button.className = 'copy-button';
+    
+            // Append the button to the code block's parent element
+            codeBlock.parentElement.insertBefore(button, codeBlock);
+    
+            // Initialize Clipboard.js on the button
+            new ClipboardJS(button, {
+                target: () => codeBlock
+            });
+    
+            // Optional: Add a success message or change button text on copy
+            button.addEventListener('click', () => {
+                button.innerText = 'Copied!';
+                setTimeout(() => {
+                    button.innerText = 'Copy';
+                }, 2000);
+            });
+        });
+    });
+    </script>
 
 </body>
 </html>
