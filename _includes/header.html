@@ -23,6 +23,10 @@
         .copy-button:hover {
             background-color: #0056b3;
         }
+        pre {
+    position: relative; /* Ensure the pre element can position the button */
+    padding: 20px; /* Add padding to avoid overlap with the button */
+}
     </style>
 </head>
 <body>
@@ -40,20 +44,21 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         // Select all code elements
-        const codeBlocks = document.querySelectorAll('code');
+        const codeBlocks = document.querySelectorAll('pre');
     
-        codeBlocks.forEach((codeBlock) => {
+        codeBlocks.forEach((pre) => {
             // Create a button element
             const button = document.createElement('button');
             button.innerText = 'Copy';
             button.className = 'copy-button';
     
-            // Append the button to the code block's parent element
-            codeBlock.parentElement.insertBefore(button, codeBlock);
+            // Append the button to the pre element
+            pre.style.position = 'relative'; // Ensure the pre element can position the button
+            pre.appendChild(button);
     
             // Initialize Clipboard.js on the button
             new ClipboardJS(button, {
-                target: () => codeBlock
+                target: () => pre.querySelector('code')
             });
     
             // Optional: Add a success message or change button text on copy
@@ -66,7 +71,6 @@
         });
     });
     </script>
-
 </body>
 </html>
 
