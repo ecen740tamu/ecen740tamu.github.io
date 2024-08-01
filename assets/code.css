@@ -9,14 +9,15 @@
   white-space: pre-wrap;
   font-size: 14px;
   background-color: #f3ffff;
-  
+  z-index: 1; /* Added z-index */
+  position: relative; /* Ensure z-index works */
 }
 
 .highlight pre {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   
-  border-radius: 16px;
+  border-radius: 10px;
   border: 1px solid #73AD21;
 }
 
