@@ -59,4 +59,9 @@ Evaluation function helps in
 
 ### Data pipeline
 
-1. 
+1. What kind of data is available, how much data is already we have
+2. Is it annotated, how good and accurate is annotated
+3. How expensive is to get things annotated
+4. Data budget
+5. How to annotate data: supervised/unsupervised
+6. User data: what data needed, how to collect

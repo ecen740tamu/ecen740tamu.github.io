@@ -32,3 +32,9 @@ for nested simply right
     color: #0056b3;
     text-decoration: underline;
 }
+
+
+The z-index property in CSS controls the stacking order of elements. Elements with a higher z-index value will appear in front of elements with a lower z-index value. The z-index property only works on positioned elements (i.e., elements with a position value other than static).
+
+
+padding gives space around all the elements
