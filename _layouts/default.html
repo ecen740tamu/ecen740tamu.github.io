@@ -28,7 +28,23 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <style>
+      #back-to-top {
+          position: fixed;
+          bottom: 20px; /* Position it at the bottom */
+          right: 20px; /* Position it at the right */
+          z-index: 999;
+          text-align: center;
+          line-height: 40px;
+          height: 40px;
+          width: 40px; /* Ensure it has a width */
+          background-color: #fff; /* Ensure the background color is set */
+          color: #333; /* Ensure the text color is set */
+          border: 1px solid #333; /* Optional: Add a border */
+          border-radius: 5px; /* Optional: Add border radius */
+          display: none; /* Initially hide the button */
+      }
+  </style>
   </head>
   <body>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
@@ -37,15 +53,7 @@
       innerHTML: 'PgUp',
       textColor: '#333'
     })</script>
-    <style>
-      #back-to-top {
-        position: fixed;
-        z-index: 999;
-        text-align: center;
-        line-height: 40px;
-        height: 40px;
-      }
-    </style>
+
    
       {% include header.html %}
       
