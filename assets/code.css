@@ -9,6 +9,13 @@
   white-space: pre-wrap;
   font-size: 14px;
   background-color: #f3ffff;
+  
+}
+
+.highlight code {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d5d5e9;
   border-radius: 16px;
   border: 0px solid #73AD21;
 }
