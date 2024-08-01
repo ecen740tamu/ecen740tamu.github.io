@@ -12,12 +12,12 @@
   
 }
 
-.highlight code {
+.highlight pre {
   margin: 0;
   padding: 0;
   
   border-radius: 16px;
-  border: 2px solid #73AD21;
+  border: 1px solid #73AD21;
 }
 
 .highlight .gl {
