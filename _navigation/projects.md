@@ -5,9 +5,11 @@ permalink: /tutorials/
 order: 4
 ---
 
-## Tutorials:
 
-### Compute Resources at TAMU
+## Compute Resources and Tutoritals
+- [Compute Resources](#ecen-compute-cluster)
+- [Python Tutorials](#python-tutorials)
+### ECEN Compute Cluster
 
 - ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
  - Following are the steps to run experiments in the cluster.
@@ -102,17 +104,18 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
   </tbody>
 </table>
 
-
+### HPC TAMU
 
 - High Performance Research Computing at TAMU, [request access](https://hprc.tamu.edu/apply/). Use ECEN 740 course number to get approval
 
+### Public Cloud
 - [Google Colab](https://colab.research.google.com/) 
 
 - [Azure for students](https://azure.microsoft.com/en-us/free/students)
 
 - Usual TAMU OAL Labs student accounts. [Access](https://it.tamu.edu/oal/) 
 
-### Python Tutorials
+## Python Tutorials
 
 - [Python Tutorial]({% link python1.md %}) Basics of Python
 - [Python Tutorial]({% link python2.md %}) PyTorch and TensorFlow
