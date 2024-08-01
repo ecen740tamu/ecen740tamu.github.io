@@ -6,6 +6,8 @@ header {
     color: white;
     font-family: 'Roboto', sans-serif; /* Applying Roboto font */
     font-weight: bold;
+    z-index: 1000;
+    position: relative;
 }
 
 html, body { height: 100%; 
