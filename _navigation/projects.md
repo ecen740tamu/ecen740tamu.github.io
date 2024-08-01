@@ -7,11 +7,11 @@ order: 4
 
 ## Tutorials:
 
-#### Compute Resources at TAMU
+### Compute Resources at TAMU
 
 - ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
  - Following are the steps to run experiments in the cluster.
-    1. Ssh using vscode
+    1. SSH using vscode
     2. Request resource, and choose right partition and qos
     3. Import your files, and create a python env and kick start experiments
     4. Following commands help
@@ -112,9 +112,11 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
 
 - Usual TAMU OAL Labs student accounts. [Access](https://it.tamu.edu/oal/) 
 
-#### Python Tutorials
+### Python Tutorials
 
-- [Python Tutorial]({% link python1.md %})
-- [Python Tutorial]({% link python2.md %})
+- [Python Tutorial]({% link python1.md %}) Basics of Python
+- [Python Tutorial]({% link python2.md %}) PyTorch and TensorFlow
+<br>
+<br>
 <br>
 <br>
