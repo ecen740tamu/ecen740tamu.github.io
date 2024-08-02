@@ -8,7 +8,9 @@ header {
     font-weight: bold;
     position: fixed;
     top: 0;
-    z-index: 1; /* Added z-index */
+    z-index: 10; /* Added z-index */
+    width: 100%;
+    left: 0;
 }
 
 html, body { height: 100%; 
