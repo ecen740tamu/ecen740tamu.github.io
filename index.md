@@ -3,7 +3,8 @@ layout: default
 title: Home
 permalink: /
 ---
-
+<br>
+<br>
 <div style="display: flex; align-items: center;">
   <div style="text-align: center; flex-grow: 1;">
     <h2>ECEN 740 TAMU: Machine Learning </h2>
