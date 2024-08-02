@@ -28,9 +28,24 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
   </head>
   <body>
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+      backgroundColor: '#fff',
+      innerHTML: 'PgUp',
+      textColor: '#333'
+    })</script>
+    <style>
+      #back-to-top {
+        position: fixed;
+        z-index: 999;
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+      }
+    </style>
    
       {% include header.html %}
       
@@ -40,8 +55,6 @@
       <div class="wrapper-class">
       {{ content }}
       </div>
-
     </main>
-    
   </body>
 </html>
