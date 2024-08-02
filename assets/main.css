@@ -6,8 +6,9 @@ header {
     color: white;
     font-family: 'Roboto', sans-serif; /* Applying Roboto font */
     font-weight: bold;
-    position: relative;
-    border-bottom: 1px solid #f3ffff;
+    position: fixed;
+    top: 0;
+    z-index: 1; /* Added z-index */
 }
 
 html, body { height: 100%; 
@@ -30,8 +31,7 @@ p {
    h3 { font-size: 22px; }
    h4 { font-size: 18px; }
    blockquote { padding-left: 10px; }
-   ul,
-   ol { padding-left: 10px; }
+
 
   
 
