@@ -9,6 +9,7 @@ order: 4
 ## Compute Resources and Tutoritals
 - [Compute Resources](#ecen-compute-cluster)
 - [Python Tutorials](#python-tutorials)
+
 ### ECEN Compute Cluster
 
 - ECEN offers academic cluster for students [ECEN Cluster](https://tamuengr.atlassian.net/wiki/spaces/helpdesk/pages/2115403777/Olympus+Cluster+Information) 
@@ -19,11 +20,11 @@ order: 4
     4. Following commands help
 
 ```bash
-# ssh to the ece cluster
+# ssh to the ecen cluster
 ssh -Y <netid>@olympus.ece.tamu.edu
 # request resource
 srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cpus-per-task=8 -q <choose qos> --pty --x11=first bash
- pick right partition frob the table below
+ # pick right partition frob the table below
 ```
 
 
