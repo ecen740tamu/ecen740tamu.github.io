@@ -33,7 +33,7 @@
   <body>
     {% include header.html %}
 
-    {% include footer.html %}
+    
 
    
     <style>
@@ -53,7 +53,7 @@
         border-radius: 4px;
       }
       #myBtn:hover {
-  background-color: #003C71;
+  background-color: #555;
 }
     </style>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -78,13 +78,15 @@
         document.documentElement.scrollTop = 0;
       }
       </script>
-  
+    <main class="container">
+      <div class="wrapper-class">
         <br>
         <br>
         <br>
         {{ content }}
         <br>
         <br>
-    
+      </div>
+    </main>
   </body>
 </html>

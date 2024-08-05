@@ -36,6 +36,10 @@ p {
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
+  margin: 0 auto; /* Center align the container */
+  padding: 0 20px;
+  overflow: scroll; /* Add padding for better readability */
+  overflow-y: auto;
 }
 
 
