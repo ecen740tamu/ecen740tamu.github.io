@@ -92,3 +92,21 @@ Mixed Precision Training
 3. Are we forecasting and how often we want our model to change, annual, monthly, weekly, daily, hourly, nightly
 
 4. Is the output just one 
+
+
+Step1 : Feature Engineering
+Step2: Prototyping and Training
+Step3: Model Selection and Validation
+Step4: Productionization
+
+Step 1: Feature Engineering
+
+Stage 1: Feature definition
+Stage 2: Data acquistion
+Stage 3: Data validation: Are there any missing data points, whether data is missing at random,
+we need to investigate why and understand root cause. If too many values are missing, should we ignore the data point
+
+String to numrical conversion: One-hot encoding, think of dictionary that uniquely maps string to a number
+
+If the data-cardinality is very large it is better to consider frequency
+
