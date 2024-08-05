@@ -14,6 +14,63 @@
     }
 }
 
+/* Style for the header */
+header {
+    background-color: #003C71;
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Applying Roboto font */
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    z-index: 10; /* Added z-index */
+    width: 100%;
+    left: 0;
+}
+
+html, body { height: 100%; 
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  text-align: justify;
+}
+
+
+/*testing screen size css rules*/
+@media screen and (max-width: 600px) {
+
+  .wrap { padding: 0 12px; }
+
+   h1 { font-size: 20px; }
+   h2 { font-size: 18px; }
+   h3 { font-size: 18px; }
+   h4 { font-size: 18px; }
+   blockquote { padding-left: 10px; }
+
+
+}
+
+
+
+
+body {
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+}
+
+/* Style for the navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
 
 /* Post styles */
