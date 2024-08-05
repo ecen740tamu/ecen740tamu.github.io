@@ -7,7 +7,8 @@ permalink: /
 <div style="display: flex; align-items: center;">
   <div style="text-align: center; flex-grow: 1;">
     <h2>ECEN 740 TAMU: Machine Learning </h2>
-    <h3> Course Instructor: Prof. P R Kumar </h3>
+    <h3> Course Instructor</h3>
+     <h3> Prof. P R Kumar </h3>
     <h3> <a href="https://cesg.tamu.edu/faculty/p-r-kumar/">Lab Webpage</a> </h3>
     
   </div>
