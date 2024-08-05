@@ -47,6 +47,11 @@ body {
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
+  max-width: 1080px; /* Set maximum width */
+  margin: 0 auto; /* Center align the container */
+  padding: 0 20px;
+  overflow: scroll; /* Add padding for better readability */
+  overflow-y: auto;
 }
 
 /* Style for the navigation links */

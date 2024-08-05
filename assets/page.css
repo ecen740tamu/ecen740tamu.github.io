@@ -1,12 +1,7 @@
 /* CSS styles for the container */
 
 
-/* Optional: Add media queries for responsive design */
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 0 10px; /* Adjust padding for smaller screens */
-    }
-}
+
 
 /* Style for the header */
 header {
@@ -30,6 +25,17 @@ html, body { height: 100%;
 
 p {
   text-align: justify;
+}
+/* Utility */
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
 }
 
 
