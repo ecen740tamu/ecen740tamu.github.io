@@ -7,27 +7,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- Linking Roboto font -->
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
     <style>
-        .copy-button {
-            
-            top: 10px;
-            right: 10px;
-            padding: 5px 10px;
-            font-size: 12px;
-            cursor: pointer;
-            background-color: #003C71;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            position: absolute;
+    .copy-button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        color: #24292e;
+        background-color: #f6f8fa;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        cursor: pointer;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        transition: background-color 0.2s ease;
         }
 
         .copy-button:hover {
-            background-color: #0056b3;
+        background-color: #e1e4e8;
+        }
+
+        .copy-button:active {
+        background-color: #d1d5da;
+        }
+
+        .copy-button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
         }
         pre {
-    position: relative; /* Ensure the pre element can position the button */
-    padding: 40px; /* Add padding to avoid overlap with the button */
-}
+                position: relative; /* Ensure the pre element can position the button */
+                padding: 40px; /* Add padding to avoid overlap with the button */
+            }
     </style>
 </head>
 <body>
