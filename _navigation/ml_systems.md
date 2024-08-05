@@ -65,3 +65,13 @@ Evaluation function helps in
 4. Data budget
 5. How to annotate data: supervised/unsupervised
 6. User data: what data needed, how to collect
+7. Where to store data
+8. How to store data
+9. Data preprocessing and representation
+10. Challenges
+11. Privacy
+12. Biases: What bias might represent in data, how do you correct the biases, are your data
+and annotation inclusive, will your data reinforce current societal biases
+13. Modeling:
+model selection, training and debugging, is what's often covered in most machine learning courses
+H
