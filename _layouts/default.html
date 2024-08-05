@@ -38,6 +38,18 @@
       backgroundColor: '#fff',
       textColor: 'rgb(255, 82, 82)'
     })</script>
+     <style>
+      #back-to-top {
+       
+        position: fixed; /* Fix it to the viewport */
+        bottom: 20px; /* Position it 20px from the bottom */
+        right: 20px; /* Position it 20px from the right */
+
+        cursor: pointer; /* Change cursor to pointer */
+        z-index: 10; /* Ensure it stays above other content */
+        transition: bottom .2s,opacity .2s; /* Add a transition effect */
+      }
+    </style>
       {% include header.html %}
       
       {% include footer.html %}
