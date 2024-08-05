@@ -353,4 +353,25 @@ nav a {
     color: #ff0089;
     font-weight: bold;
   }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+footer a i {
+    margin-right: 5px;
+}
   
