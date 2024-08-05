@@ -74,4 +74,5 @@ Evaluation function helps in
 and annotation inclusive, will your data reinforce current societal biases
 13. Modeling:
 model selection, training and debugging, is what's often covered in most machine learning courses
-H
+
+### Deep learning requires a lot of data, unless we don't worry about generalization. 
