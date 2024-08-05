@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'assets/page.css' | relative_url }}" > <!-- css for page layout -->
+    <link rel="stylesheet" href="{{ 'assets/page.css' | relative_url }}">
     <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}">
     <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
-    
-    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script>
       MathJax.Hub.Config({
         "HTML-CSS": {
           availableFonts: ["TeX"],
         },
         tex2jax: {
-          inlineMath: [['$','$'],["\\(","\\)"],['\[','\]']],},
-          displayMath: [ ['$','$'], ['\\[','\\]'], ['\[','\]']],
+          inlineMath: [['$','$'],["\\(","\\)"],['\[','\]']],
+          displayMath: [['$','$'], ['\\[','\\]'], ['\[','\]']],
+        },
         TeX: {
           extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
           equationNumbers: {
@@ -27,9 +30,6 @@
         "AssistiveMML": { disabled: true }
       });
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   </head>
   <body>
     {% include header.html %}
@@ -38,36 +38,29 @@
         <br>
         <br>
         <br>
-        
-      {{ content }}
+        {{ content }}
+      </div>
+    </main>
     {% include footer.html %}
-  
- 
-    </div>
-  </main>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-      addBackToTop({
-      diameter: 1000,
-      backgroundColor: '#fff',
-      textColor: 'rgb(255, 82, 82)'
-    });
-  });
+        addBackToTop({
+          diameter: 56,
+          backgroundColor: '#fff',
+          textColor: 'rgb(255, 82, 82)'
+        });
+      });
     </script>
-     <style>
+    <style>
       #back-to-top {
-       
         position: fixed; /* Fix it to the viewport */
         bottom: 20px; /* Position it 20px from the bottom */
         right: 20px; /* Position it 20px from the right */
-
         cursor: pointer; /* Change cursor to pointer */
         z-index: 10; /* Ensure it stays above other content */
-        transition: bottom .2s,opacity .2s; /* Add a transition effect */
+        transition: bottom .2s, opacity .2s; /* Add a transition effect */
       }
     </style>
-    
- 
   </body>
 </html>
