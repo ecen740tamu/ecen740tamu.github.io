@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}">
     <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
     
-    </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
       MathJax.Hub.Config({
         "HTML-CSS": {
           availableFonts: ["TeX"],
@@ -40,11 +40,11 @@
         <br>
         
       {{ content }}
-    {% include footer.html %}
+    
   
  
-    </div>
-  </main>
+  
+    
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -67,7 +67,9 @@
         transition: bottom .2s,opacity .2s; /* Add a transition effect */
       }
     </style>
-    
+        {% include footer.html %}
+      </div>
+  </main>
  
   </body>
 </html>
