@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="{{ 'assets/page.css' | relative_url }}">
     <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}">
     <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
+<<<<<<< HEAD
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
     <script>
+=======
+    
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+>>>>>>> 36fb20466383bf3ae1d473c629158a036b323712
       MathJax.Hub.Config({
         "HTML-CSS": {
           availableFonts: ["TeX"],
@@ -32,6 +37,7 @@
     </script>
   </head>
   <body>
+<<<<<<< HEAD
     {% include header.html %}
     <main class="container">
       <div class="wrapper-class">
@@ -51,6 +57,17 @@
           textColor: 'rgb(255, 82, 82)'
         });
       });
+=======
+        <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      addBackToTop({
+      diameter: 56,
+      backgroundColor: '#fff',
+      textColor: 'rgb(255, 82, 82)'
+    });
+  });
+>>>>>>> 36fb20466383bf3ae1d473c629158a036b323712
     </script>
     <style>
       #back-to-top {
@@ -62,5 +79,28 @@
         transition: bottom .2s, opacity .2s; /* Add a transition effect */
       }
     </style>
+<<<<<<< HEAD
+=======
+
+    
+    {% include header.html %}
+    <main class="container">
+      <div class="wrapper-class">
+        <br>
+        <br>
+        <br>
+        
+      {{ content }}
+    
+  
+ 
+  
+    
+ 
+        {% include footer.html %}
+      </div>
+  </main>
+ 
+>>>>>>> 36fb20466383bf3ae1d473c629158a036b323712
   </body>
 </html>
