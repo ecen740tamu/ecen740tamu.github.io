@@ -32,12 +32,29 @@
 
   </head>
   <body>
+    {% include header.html %}
+    <main class="container">
+      <div class="wrapper-class">
+        <br>
+        <br>
+        <br>
+        
+      {{ content }}
+    {% include footer.html %}
+  
+ 
+    </div>
+  </main>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-    <script>addBackToTop({
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      addBackToTop({
       diameter: 1000,
       backgroundColor: '#fff',
       textColor: 'rgb(255, 82, 82)'
-    })</script>
+    });
+  });
+    </script>
      <style>
       #back-to-top {
        
@@ -50,19 +67,7 @@
         transition: bottom .2s,opacity .2s; /* Add a transition effect */
       }
     </style>
-      {% include header.html %}
-      
-      {% include footer.html %}
     
-    <main class="container">
-      <div class="wrapper-class">
-        <br>
-        <br>
-        <br>
-        
-      {{ content }}
-      </div>
-    </main>
  
   </body>
 </html>
