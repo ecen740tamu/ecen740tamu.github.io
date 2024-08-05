@@ -80,3 +80,15 @@ model selection, training and debugging, is what's often covered in most machine
 Before deep learning try other techniques
 
 
+Mixed Precision Training
+
+
+## Machine Learning to predict Value of homes on airbnb
+
+1. Regression problem so we need past data to predict next
+
+2. Getting past data
+
+3. Are we forecasting and how often we want our model to change, annual, monthly, weekly, daily, hourly, nightly
+
+4. Is the output just one 
