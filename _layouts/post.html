@@ -4,7 +4,7 @@
     <title>{{ page.title }}</title>
    
     <link rel="stylesheet" href="{{ 'assets/page.css' | relative_url }}" > <!-- css for page layout -->
-    
+    <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}" > <!-- css for page layout -->
    </head>
     <body>
 
@@ -27,8 +27,18 @@
           z-index: 999;
         }
       </style>
-
-    {% include header.html %}
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            {% assign pages_list = (site.navigation | sort: 'order') %}        
+                {% for nav_item in pages_list %}
+                    <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                {% endfor %}
+            
+        </nav>
+    
+    </header>
+   
 
     <div class="page-content">
       <div class="wrap">
