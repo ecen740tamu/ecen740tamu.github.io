@@ -47,7 +47,8 @@ srun -p <choose partition> --cpus-per-task=8 --gres=gpu:tesla:1 -J gpu-job1 --cp
     margin-right: auto;
   }
 </style>
-
+<br>
+<br>
 <table class = "center">
   <caption>QOS and Hardware Limits</caption>
   <thead>

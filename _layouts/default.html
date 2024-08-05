@@ -9,14 +9,28 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"> </script>
     
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    addBackToTop({
+  addBackToTop({
       backgroundColor: '#fff',
       innerHTML: 'PgUp',
       textColor: '#333'
-    });
-    });
-    
+  })
+    </script>
+    <style>
+    #back-to-top {
+        background-color: #fff; /* Blue */
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+        border-radius: 50%; /* Make it circular */
+        position: fixed; /* Fix it to the viewport */
+        bottom: 20px; /* Position it 20px from the bottom */
+        right: 20px; /* Position it 20px from the right */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for better visibility */
+        cursor: pointer; /* Change cursor to pointer */
+        z-index: 1000; /* Ensure it stays above other content */
+        transition: bottom .2s,opacity .2s; /* Add a transition effect */
+      }
+    </style>
     </script>
       MathJax.Hub.Config({
         "HTML-CSS": {
@@ -42,23 +56,6 @@
 
   </head>
   <body>
-  
-    <style>
-      #back-to-top {
-        background-color: #fff; /* Blue */
-        text-align: center;
-        line-height: 40px;
-        height: 40px;
-        border-radius: 50%; /* Make it circular */
-        position: fixed; /* Fix it to the viewport */
-        bottom: 20px; /* Position it 20px from the bottom */
-        right: 20px; /* Position it 20px from the right */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for better visibility */
-        cursor: pointer; /* Change cursor to pointer */
-        z-index: 1000; /* Ensure it stays above other content */
-        transition: bottom .2s,opacity .2s; /* Add a transition effect */
-      }
-    </style>
    
       {% include header.html %}
       
