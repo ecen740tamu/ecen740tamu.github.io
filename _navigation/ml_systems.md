@@ -76,3 +76,7 @@ and annotation inclusive, will your data reinforce current societal biases
 model selection, training and debugging, is what's often covered in most machine learning courses
 
 ### Deep learning requires a lot of data, unless we don't worry about generalization. 
+
+Before deep learning try other techniques
+
+
