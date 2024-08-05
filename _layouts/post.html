@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+   <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/page.css' | relative_url }}" > <!-- css for page layout -->
+    <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}">
+   </head>
     <body>
 
       <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
@@ -19,6 +24,7 @@
           text-align: center;
           line-height: 30px;
           height: 30px;
+          z-index: 999;
         }
       </style>
 
