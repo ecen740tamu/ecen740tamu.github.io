@@ -17,7 +17,7 @@
         },
         tex2jax: {
           inlineMath: [['$','$'],["\\(","\\)"],['\[','\]']],
-          displayMath: [['$','$'], ['\\[','\\]'], ['\[','\]']],
+          displayMath: [['$$','$$'], ["\\[","\\]"]]
         },
         TeX: {
           extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
@@ -33,7 +33,24 @@
     </script>
   </head>
   <body>
-  
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+      diameter: 56,
+      backgroundColor: '#003C71',
+      textColor: '#fff'
+    })</script>
+        <style>
+          #back-to-top {
+          
+            position: fixed; /* Fix it to the viewport */
+            bottom: 20px; /* Position it 20px from the bottom */
+            right: 20px; /* Position it 20px from the right */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for better visibility */
+            cursor: pointer; /* Change cursor to pointer */
+            z-index: 25; /* Ensure it stays above other content */
+            transition: bottom .2s,opacity .2s; /* Add a transition effect */
+          }
+        </style>
     
     {% include header.html %}
     <main class="container">
