@@ -6,7 +6,7 @@ order: 4
 ---
 
 
-## Compute Resources and Tutoritals
+## Compute Resources and Tutorials
 - [Compute Resources](#ecen-compute-cluster)
 - [Python Tutorials](#python-tutorials)
 
