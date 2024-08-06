@@ -8,7 +8,7 @@
 .highlight {
   white-space: pre-wrap;
   font-size: 14px;
-  background-color: #f3ffff;
+  
   z-index: 1; /* Added z-index */
   position: relative; /* Ensure z-index works */
 }
@@ -18,7 +18,8 @@
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #f8f8f8;
-  box-shadow: 0 0 10px rgba(3, 102, 214, 0.5); /* Blue outer shadow */
+  background-color: #f3ffff;
+  box-shadow: 0 0 5px rgba(3, 102, 214, 0.5); /* Blue outer shadow */
   max-width: 80%;
 }
 

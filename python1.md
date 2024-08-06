@@ -2,7 +2,7 @@
 layout: default
 title: Python Tutorial 1
 permalink: /tutorial1/
-mathjax: True
+
 ---
 
 ## Tutorial 1
@@ -628,17 +628,12 @@ np.array([1,2,3]) # returns an array of 1,2,3
 ---
 
 ### References
-1. Github copilot. URL: https://github.com/features/copilot.
-2. Google colab. URL: https://colab.research.google.com/.
-3. Numpy documentation. URL: https://numpy.org/doc/stable/index.
-html.
-4. Python documentation. URL: https://devguide.python.org/
-documentation/.
-5. Python for non-programmers. URL: https://wiki.python.org/moin/
-BeginnersGuide/NonProgrammers.
-6. Python for programmers. URL: https://wiki.python.org/moin/
-BeginnersGuide/Programmers.
-7. Python foundation. URL: https://www.python.org/abou a Boolean.   
+1. [Github copilot](https://github.com/features/copilot)
+2. [Google colab](https://colab.research.google.com/)
+3. [Numpy documentation](https://numpy.org/doc/stable/index.html)
+4. [Python documentation](https://devguide.python.org/documentation/)
+5. [Python for non-programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+6. [Python for programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
+7. [Python foundation](https://www.python.org/about) 
 <br>
 <br>
----

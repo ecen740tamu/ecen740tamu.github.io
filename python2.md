@@ -2,7 +2,7 @@
 layout: default
 title: Python Tutorial 2
 permalink: /tutorial2/
-mathjax: True
+
 ---
 
 ## Tutorial 2

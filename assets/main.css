@@ -33,11 +33,29 @@ p {
    h3 { font-size: 18px; }
    h4 { font-size: 18px; }
    blockquote { padding-left: 10px; }
+   .highlight {
+    white-space: pre-wrap;
+    font-size: 14px;
+    
+    z-index: 1; /* Added z-index */
+    position: relative; /* Ensure z-index works */
+  }
 
+  pre {
+    white-space: pre-wrap; /* Enable word wrapping */
+    word-wrap: break-word; /* Ensure long words break to the next line */
+  }
 
 }
 
-
+/* Font sizes for laptop screens */
+@media screen and (min-width: 601px) {
+  h1 { font-size: 32px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 24px; }
+  h4 { font-size: 20px; }
+  p { font-size: 16px; } /* Body text font size */
+}
 
 
 body {
