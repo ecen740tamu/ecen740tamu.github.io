@@ -34,11 +34,10 @@ covers Bayes classifier, maximum-likelihood estimation, least squares, Probably 
 
 ---
 
-#### Course Pre-requisites
+### Course Pre-requisites
 ECEN 303 or MATH 411 or STAT 614 or STAT 615 or by Professor approval.
 
 ---
 ### References
-
 Shai Shalev-Shwartz and Shai Ben-David, Understanding Machine Learning: From Theory to Algorithms, Cambridge University Press, 2014.
 
