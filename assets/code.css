@@ -14,13 +14,15 @@
 }
 
 .highlight pre {
-  margin: 0;
-  padding: 40px;
+  
+  padding: 20px;
   border-radius: 16px;
   border: 1px solid #f8f8f8;
   background-color: #f3ffff;
   box-shadow: 0 0 5px rgba(3, 102, 214, 0.5); /* Blue outer shadow */
   max-width: 80%;
+  margin-left: auto; /* Center the pre element */
+  margin-right: auto; 
 }
 
 .highlight .gl {

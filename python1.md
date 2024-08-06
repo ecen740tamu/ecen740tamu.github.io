@@ -275,7 +275,7 @@ Knowledge of built-in functions comes in handy to write code quickly, improves c
 <style>
  
   table {
-    width: 95%;
+    width: 80%;
     background-color: #e8edf1; /* Background color added here */
     margin-left: auto; /* Center table with automatic left margin */
     margin-right: auto; /* Center table with automatic right margin */
