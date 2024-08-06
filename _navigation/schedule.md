@@ -6,7 +6,8 @@ order: 3
 ---
 
 ## Course Schedule
-
+<br>
+<br>
 <style>
 
   table {

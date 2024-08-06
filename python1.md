@@ -39,7 +39,7 @@ Python comes pre-installed in all modern operating systems. Using Python in a lo
 
 
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/docs/colab2.png" alt=" " style="width: 80%;" />
+    <img src="{{ site.baseurl }}/docs/colab2.png" alt=" " style="width: 100%;" />
     <br>
     <em>Figure: GenAI in the Google Colab.</em>
 </div>
