@@ -12,16 +12,20 @@ header {
     width: 100%;
     left: 0;
 }
-
+/*style of body and also avoid double scroll bar for x and y directions*/
 html, body { height: 100%; 
   max-width: 100%;
   overflow-x: initial !important;
 }
 
+
+/*Justifies screen size*/
 p {
   text-align: justify;
 }
 
+
+/* Style for media screen */
 
 /*testing screen size css rules*/
 @media screen and (max-width: 600px) {
@@ -74,7 +78,7 @@ nav a {
     margin: 0 10px;
 }
 
-
+/* max screen size of the webpage*/
 /* CSS styles for the container */
 .container {
     max-width: 1080px; /* Set maximum width */

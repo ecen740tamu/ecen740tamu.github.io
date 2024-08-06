@@ -5,6 +5,7 @@
 /*.highlight table td { padding: 5px; }*/
 /*.highlight table pre { margin: 0; }*/
 
+/* applies css as per code block*/
 .highlight {
   white-space: pre-wrap;
   font-size: 14px;
@@ -12,7 +13,7 @@
   z-index: 1; /* Added z-index */
   position: relative; /* Ensure z-index works */
 }
-
+/*CSS for pre tag that is responsible for showing border and background around code element*/
 .highlight pre {
   
   padding: 20px;
