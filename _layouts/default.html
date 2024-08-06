@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
     
     <link rel="stylesheet" href="{{ 'assets/code.css' | relative_url }}">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
       MathJax.Hub.Config({
         "HTML-CSS": {
@@ -40,8 +40,20 @@
       backgroundColor: '#003C71',
       innerHTML: '<svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>',
       textColor: '#fff'
+      
     })</script>
-  
+    <style>
+      #back-to-top {
+        position: fixed; /* Fix it to the viewport */
+        bottom: 20px; /* Position it 20px from the bottom */
+        right: 20px; /* Position it 20px from the right */
+        cursor: pointer; /* Change cursor to pointer */
+        z-index: 10; /* Ensure it stays above other content */
+        transition: bottom .2s, opacity .2s; /* Add a transition effect */
+        text-align: center;
+       
+      }
+    </style>
    
     <main class="container">
       <div class="wrap">
@@ -49,8 +61,7 @@
         <br>
         <br>
         {{ content }}
-        <br>
-        <br>
+        
       </div>
     </main>
   </body>
