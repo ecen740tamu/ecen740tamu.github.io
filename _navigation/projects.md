@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Tutorials
 permalink: /tutorials/
 order: 4
