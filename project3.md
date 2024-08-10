@@ -7,8 +7,8 @@ mathjax: True
 
 
 ## Implement Transformer with Self-Attention
-
-
+-[Introduction](#introduction)
+-[Task](#task)
 ### Introduction
 Over the past few decades, significant efforts have been made to understand language. Language, as a primary means of human communication, reflects our culture, evolution, and facilitates connections between individuals. Linguistics formally studies the fundamental structure of languages and investigates whether there exists any common ground across different languages.  It is remarkable to witness a computer algorithm learning the intricacies of various languages and comprehending the context of a sentence. However, it's important to recognize that this portrayal of an algorithm's capabilities may be somewhat exaggerated.
 
