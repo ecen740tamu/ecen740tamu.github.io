@@ -18,7 +18,8 @@ It showcased the ability of transformers not only for translation. Interestingly
 
 In this project, we implement the English-to-German translation task in the
 paper [2](https://arxiv.org/abs/1706.03762). Software source code is available at [4](https://github.com/brandokoch/attention-is-all-you-need-paper/tree/master), [6](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/Transformer_translate.ipynb). [4](https://github.com/brandokoch/attention-is-all-you-need-paper/tree/master) is PyTorch, while [6](https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/Transformer_translate.ipynb) is in
-TensorFlow. You may choose either
+TensorFlow. You may choose either. Alternatively, clean pytorch only implementation of pre-training, and evaluation is
+available using [TorchTune](https://github.com/pytorch/torchtune)
 
 ### Task
 - Implement English-to-German translation task.
