@@ -21,6 +21,13 @@ paper [2](https://arxiv.org/abs/1706.03762). Software source code is available a
 TensorFlow. You may choose either. Alternatively, clean pytorch only implementation of pre-training, and evaluation is
 available using [TorchTune](https://github.com/pytorch/torchtune)
 
+
+### The Crux: Attention Mechanism
+
+Clean knowledge of three elements or buildingblocks help understand the paper and also the complete this  work. First, $d_model$: dimension of the embedding vector, next, attention mechanism used in work is scaled, with dimension $d_k$=$d_model/h$, where h is number of multi-heads, so we need to first perform projections on Q, K and V matrices and concatenate before performing scaled attention. 
+
+
+
 ### Task
 - Implement English-to-German translation task.
 
